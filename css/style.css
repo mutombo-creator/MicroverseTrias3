@@ -1,0 +1,87 @@
+h1 {
+    color: #2F4F4F;
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 60px;
+    margin: 0 0 50px;
+    text-align: center;
+    margin: 0 0 50px;
+    text-shadow: 1px 1px 2px #082b34;
+}
+
+p {
+    color: #00008B;
+    font-family: 'Rouge Script', cursive;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+}
+#description {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #00008B;
+    margin: 10px 0 24px;
+    text-align: center end;
+    text-shadow: 1px 1px 0 #082b34;
+}
+input[type=text]:focus {
+    margin-bottom: 25px;
+    border: 5px thin #555;
+}
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-flex;
+}
+
+input[type=submit] {
+    background-color: #ff0000;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: auto;
+    align-self: center;
+}
+#name {
+    color: #4800ff;
+    font-family: 'Rouge Script', 'Monotype Corsiva';
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+    
+}
+#email {
+    color: #4800ff;
+    font-family: 'Rouge Script', 'Monotype Corsiva';
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+}
+#number {
+    color: #4800ff;
+    font-family: 'Rouge Script', 'Monotype Corsiva';
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+}

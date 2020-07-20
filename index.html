@@ -8,6 +8,57 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+      <h1 id="title">REGISTRATION FORM</h1>
+
+      <p id="description">Registration form for student in high school</p>
+      <form id="survey-form">
+          <div>
+              <input id="name" type="text" placeholder="please enter your Name" />
+          </div>
+          <div>
+              <input id="email" type="email" placeholder="please enter your email." pattern="[^ @]*@[^ @]*" required />
+          </div>
+          <div>
+              <input id="number" type="number" placeholder=" enter a number between 0 and 9" pattern="[0-9]" />
+          </div>
+          <div>
+              <label for="dropdown">Which option best describes your current role?</label>
+              <select id="dropdown" form="survey-form">
+                  <option value="" disabled selected>select an option</option>
+                  <option value="student">Student</option>
+                  <option value="full-time">Full time </option>
+                  <option value="part-time">Part time </option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <div>
+              <label>Male</label>
+              <input id="Checkbox1" type="checkbox" />
+          </div>
+          <div>
+              <label>Female</label>
+              <input id="Checkbox2" type="checkbox" />
+          </div>
+          <div>
+              <label>Other</label>
+              <input id="Checkbox3" type="checkbox" />
+          </div>
+          <input id="Submit" type="submit" value="submit" />
+
+
+         
+
+      </form>
+
+
+
+
+
+
+
+
       <p>Hello World!, We are Software developers</p>
     <!--
 
